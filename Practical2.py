@@ -1,7 +1,9 @@
 n = int(input("Enter n = "))
 
 # 1. Check if 'n' is prime
-if n == 2:
+if n <= 1:
+    print("'n' is not prime")
+elif n == 2:
     print("'n' is prime.")
 elif n % 2 == 0:
     print("'n' is not prime")
